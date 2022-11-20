@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 
-BUFFER_SIZE 20
+#define BUFFER_SIZE 20
 
 char	set[][3]={49,52,55,50,53,56,51,54,57,49,50,51,52,53,54,55,56,57,
 		49,53,51,51,53,57,57,53,55,55,53,49,
