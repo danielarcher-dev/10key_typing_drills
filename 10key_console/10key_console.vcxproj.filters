@@ -19,4 +19,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="10key_source-init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10key_source-main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10key_source-tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10key_source-timings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
