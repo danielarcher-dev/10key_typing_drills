@@ -15,7 +15,7 @@ void pTest01(char AC[]); // prints "1234567890.0987654321"
 void pRand01(char AC[]); // random pattern
 void pracSet(char set[82][3], int subset, int times);
 // source-timings.h
-int clock(int action, int start, int finish, int totalTime);
+long clock(long action, long start, long finish, long totalTime);
 
 #include "10key_source-init.h"
 #include "10key_source-tests.h"

@@ -2,11 +2,11 @@
 #include <fstream>
 using namespace std;
 
-int clock(int action, int startTime, int finishTime, int totalTime)
+long clock(long action, long startTime, long finishTime, long totalTime)
 {	if (action==0)
-	{	startTime=time(NULL); }
+	{	startTime=(unsigned int)time(NULL); }
 	if (action==1)
-	{	finishTime=time(NULL);
+	{	finishTime=(unsigned int)time(NULL);
 		totalTime=finishTime-startTime; }
 return(totalTime);
 }

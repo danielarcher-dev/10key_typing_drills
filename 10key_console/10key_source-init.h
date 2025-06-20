@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 
-#define BUFFER_SIZE 20
+#define BUFFER_SIZE 25
 
 char	set[][3]={49,52,55,50,53,56,51,54,57,49,50,51,52,53,54,55,56,57,
 		49,53,51,51,53,57,57,53,55,55,53,49,
@@ -35,7 +35,7 @@ int	finishTime(0);
 int	totalTime(0);
 
 	char	AC[]={48,49,50,51,52,53,54,55,56,57,61,32, 42,43,45,47,46,44}; // available chars
-	char	IC[20];	// input collection
+	char	IC[BUFFER_SIZE];	// input collection
 
 	char	test4='n';
 	char	test01='y';
@@ -45,7 +45,7 @@ int	totalTime(0);
 
 void loadData()
 {
-	srand (time(NULL)); // initialize random seed
+	srand((unsigned int)time(NULL)); // initialize random seed
 
 // test
 // test(col,row);

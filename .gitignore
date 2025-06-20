@@ -1,2 +1,21 @@
 .vs/*
+
+
+### Xcode
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
 .DS_Store
+
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+*.xcworkspace
+
+# exclude leaks report
+leaks.json
