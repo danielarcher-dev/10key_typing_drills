@@ -45,8 +45,7 @@ void pracSet(char set[82][3], int subset, int times)
 	    {	cout << set[subset][rand()%3];
 	    }	cout << AC[16];
 	  }	cout << endl;
-		cin.width(BUFFER_SIZE);
-		cin >> IC;
+		testForExit();
 	}
 
 return;
