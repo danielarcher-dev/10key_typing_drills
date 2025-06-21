@@ -59,3 +59,14 @@ for (i=0;i<3;i++)
 	cout << "row[" << i << "][" << j << "] = " << row[i][j] << endl; } }
 return;
 }
+
+void testForExit()
+{
+	cin.width(BUFFER_SIZE);
+	cin >> IC;
+    if (IC[0] == 'q' || IC[0] == 'Q')
+    {
+        cout << "Exiting now...\n";
+        exit(0);
+    }
+}
